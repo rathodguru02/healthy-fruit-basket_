@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthy Fruit Basket</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFDF7;
+    color: #333;
+}
+
+header {
+    background-color: #2E7D32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #2E7D32;
+}
+
+.menu-item {
+    margin: 8px 0;
+}
+
+button {
+    background-color: #FFA726;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FB8C00;
+}
+
+footer {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Healthy Fruit Basket</h1>
+    <p>Fresh • Healthy • Delicious</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to Healthy Fruit Basket</h2>
+    <p>Your daily source of fresh fruit bowls and healthy salads, prepared with love and care.</p>
+    <button onclick="location.href='#order'">Order Now</button>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <h3>🥣 Fruit Bowls</h3>
+    <p class="menu-item">Classic Mixed Fruit Bowl</p>
+    <p class="menu-item">Tropical Fruit Bowl</p>
+    <p class="menu-item">Berry Blast Bowl</p>
+    <p class="menu-item">Seasonal Special Bowl</p>
+
+    <h3>🥗 Fruit Salads</h3>
+    <p class="menu-item">Fresh Garden Fruit Salad</p>
+    <p class="menu-item">Honey Lime Fruit Salad</p>
+    <p class="menu-item">Protein Fruit Salad</p>
+</section>
+
+<section id="order">
+    <h2>Online Ordering</h2>
+    <p>Click below to order directly on WhatsApp</p>
+    <button onclick="window.open('https://wa.me/1234567890','_blank')">
+        Order on WhatsApp
+    </button>
+    <p><small>*Replace the WhatsApp number with your own</small></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone / WhatsApp: +123 456 7890</p>
+    <p>📧 Email: healthyfruitbasket@email.com</p>
+    <p>📍 Location: Your City, Your Area</p>
+</section>
+
+<footer>
+    <p>© 2026 Healthy Fruit Basket. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
