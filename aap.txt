@@ -111,9 +111,9 @@ Order on WhatsApp
 
 <section id="contact">
 <h2>Contact Us</h2>
-<p>📞 Phone / WhatsApp: +123 456 7890</p>
+<p>📞 Phone / WhatsApp: +91 9019440824 </p>
 <p>📧 Email: healthyfruitbasket@email.com</p>
-<p>📍 Location: Your City, Your Area</p>
+<p>📍 Location: belagavi, Your Area</p>
 </section>
 
 <footer>
@@ -122,3 +122,4 @@ Order on WhatsApp
 
 </body>
 </html>
+
